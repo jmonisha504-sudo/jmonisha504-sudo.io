@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monisha Jagadevan | Software Engineer</title>
+  <meta name="description" content="Portfolio of Monisha Jagadevan, Software Engineer and MCA Graduate.">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+      background: #0b1020;
+      color: #e8ecf4;
+    }
+    a { color: inherit; text-decoration: none; }
+    .container { width: min(1100px, 92%); margin: auto; }
+    header {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      background: linear-gradient(135deg, #0b1020, #141b33);
+      padding: 40px 0;
+    }
+    .hero { max-width: 850px; }
+    .tag {
+      display: inline-block;
+      padding: 7px 14px;
+      border: 1px solid #53607a;
+      border-radius: 30px;
+      color: #b9c7e6;
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+    h1 { font-size: clamp(42px, 8vw, 76px); line-height: 1.05; margin-bottom: 15px; }
+    .hero h2 { font-size: clamp(22px, 4vw, 34px); color: #9fb3dc; margin-bottom: 20px; }
+    .hero p { max-width: 760px; color: #c8cfdd; font-size: 17px; }
+    .contact-row { display: flex; flex-wrap: wrap; gap: 12px; margin: 28px 0; }
+    .btn {
+      display: inline-block;
+      padding: 11px 18px;
+      border-radius: 8px;
+      background: #e8ecf4;
+      color: #0b1020;
+      font-weight: bold;
+    }
+    .btn.alt { background: transparent; color: #e8ecf4; border: 1px solid #53607a; }
+    nav {
+      position: sticky; top: 0; z-index: 10;
+      background: rgba(11,16,32,.94);
+      border-bottom: 1px solid #27304a;
+      backdrop-filter: blur(10px);
+    }
+    nav .container { display: flex; gap: 18px; overflow-x: auto; padding: 13px 0; }
+    nav a { color: #bdc7da; white-space: nowrap; font-size: 14px; }
+    nav a:hover { color: white; }
+    section { padding: 80px 0; border-bottom: 1px solid #202940; }
+    .section-title { font-size: 32px; margin-bottom: 28px; }
+    .section-subtitle { color: #9da9bf; margin-top: -18px; margin-bottom: 28px; }
+    .card {
+      background: #121a2d;
+      border: 1px solid #27304a;
+      border-radius: 16px;
+      padding: 25px;
+      margin-bottom: 20px;
+    }
+    .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    h3 { font-size: 21px; margin-bottom: 8px; }
+    h4 { color: #b9c7e6; margin: 15px 0 7px; }
+    .meta { color: #8f9bb2; font-size: 14px; margin-bottom: 12px; }
+    ul { padding-left: 20px; }
+    li { margin: 7px 0; color: #c8cfdd; }
+    .chips { display: flex; flex-wrap: wrap; gap: 9px; }
+    .chip {
+      background: #1b2540;
+      border: 1px solid #33405f;
+      border-radius: 20px;
+      padding: 7px 12px;
+      font-size: 14px;
+      color: #dbe2ef;
+    }
+    .project-number {
+      font-size: 13px;
+      color: #8998b6;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    .highlight { color: #e8ecf4; font-weight: bold; }
+    footer { padding: 35px 0; text-align: center; color: #8f9bb2; }
+    @media (max-width: 800px) {
+      .grid, .grid-3 { grid-template-columns: 1fr; }
+      section { padding: 55px 0; }
+      nav .container { gap: 14px; }
+      .hero p { font-size: 16px; }
+    }
+  </style>
+</head>
+<body>
+
+<header id="home">
+  <div class="container">
+    <div class="hero">
+      <span class="tag">Software Engineer • MCA Graduate</span>
+      <h1>MONISHA JAGADEVAN</h1>
+      <h2>Building practical software, AI & data-driven solutions.</h2>
+      <p>
+        Software Engineer and MCA Graduate with hands-on experience in live production
+        web applications, backend logic, database integration, data validation,
+        Prompt Engineering, and Deep Learning.
+      </p>
+      <div class="contact-row">
+        <a class="btn" href="mailto:jmonisha504@gmail.com">Email Me</a>
+        <a class="btn alt" href="https://linkedin.com/in/monisha-jagadevan-143b5942a" target="_blank">LinkedIn</a>
+        <a class="btn alt" href="tel:+919789327608">Call</a>
+      </div>
+      <p>Salem, Tamil Nadu • +91 97893 27608 • jmonisha504@gmail.com</p>
+    </div>
+  </div>
+</header>
+
+<nav>
+  <div class="container">
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#certification">Certification</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<main>
+<section id="about">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <div class="card">
+      <p>
+        Software Engineer and MCA Graduate with hands-on experience building and maintaining
+        features across live production web applications, including backend logic, database
+        integration, data validation, and real-time data flow.
+      </p>
+      <p style="margin-top:14px;">
+        Proficient in Java, Python, JavaScript, TypeScript, HTML, CSS, React.js, SQL,
+        and database technologies, with strong fundamentals in data structures,
+        problem-solving, programming fundamentals, and object-oriented design.
+      </p>
+      <p style="margin-top:14px;">
+        Experienced in secure system design, structured QA and debugging, data-driven
+        engineering, Prompt Engineering, and Deep Learning. Developed practical projects
+        involving AI-powered natural language-to-SQL generation and intelligent crop
+        recommendation systems. Quick learner with an analytical mindset, attention to
+        detail, structured troubleshooting abilities, and an interest in applying modern
+        AI and software engineering techniques to real-world problems.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="container">
+    <h2 class="section-title">Education</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Master of Computer Applications (MCA)</h3>
+        <p class="meta">AVS Engineering College • 2026</p>
+        <p><span class="highlight">85%</span></p>
+      </div>
+      <div class="card">
+        <h3>Bachelor of Computer Applications (BCA)</h3>
+        <p class="meta">Vysya College • 2024</p>
+        <p><span class="highlight">78%</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="container">
+    <h2 class="section-title">Skills</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Programming Languages</h3>
+        <div class="chips">
+          <span class="chip">Java</span><span class="chip">Python</span><span class="chip">JavaScript</span>
+          <span class="chip">TypeScript</span><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">React.js</span>
+        </div>
+      </div>
+      <div class="card">
+        <h3>AI & Prompt Engineering</h3>
+        <div class="chips">
+          <span class="chip">Prompt Engineering</span><span class="chip">Few-shot Prompting</span>
+          <span class="chip">Schema-aware Prompt Construction</span><span class="chip">Role-based Prompting</span>
+          <span class="chip">Chain-of-Thought Prompting</span><span class="chip">Output Formatting Constraints</span>
+          <span class="chip">Error-handling & Self-correction Prompts</span><span class="chip">LLM Integration</span>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Deep Learning</h3>
+        <div class="chips">
+          <span class="chip">Neural Network Model Training</span><span class="chip">Data Preprocessing</span>
+          <span class="chip">Model Training</span><span class="chip">Performance Evaluation</span>
+          <span class="chip">Prediction & Classification Concepts</span>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Core CS Fundamentals</h3>
+        <div class="chips">
+          <span class="chip">Data Structures</span><span class="chip">Problem-Solving</span>
+          <span class="chip">Programming Fundamentals</span><span class="chip">Object-Oriented Design</span>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Databases</h3>
+        <div class="chips">
+          <span class="chip">SQL</span><span class="chip">MySQL</span><span class="chip">NoSQL</span>
+          <span class="chip">SQLite</span><span class="chip">PostgreSQL</span>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Web Development</h3>
+        <div class="chips">
+          <span class="chip">Node.js</span><span class="chip">REST API Integration</span>
+          <span class="chip">Backend Logic</span><span class="chip">Database-to-Webpage Integration</span>
+          <span class="chip">Secure Data Handling & Storage</span><span class="chip">Cross-module Data Flow</span>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Tools & Technologies</h3>
+        <div class="chips">
+          <span class="chip">VS Code</span><span class="chip">Eclipse</span><span class="chip">OpenAI / Claude API</span>
+          <span class="chip">Streamlit</span><span class="chip">Flask</span><span class="chip">LangChain</span>
+          <span class="chip">Manual & Automation Testing</span><span class="chip">Structured Bug Reporting</span>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Core Strengths</h3>
+        <div class="chips">
+          <span class="chip">Analytical Thinking</span><span class="chip">Attention to Detail</span>
+          <span class="chip">Structured Troubleshooting</span><span class="chip">Stakeholder Communication</span>
+          <span class="chip">Time Management</span><span class="chip">Quick Learning</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="container">
+    <h2 class="section-title">Professional Experience</h2>
+
+    <div class="card">
+      <h3>Web Developer Intern</h3>
+      <p class="meta">Neowep Software Technology, Dharmapuri • February 2025</p>
+      <ul>
+        <li>Implemented database-to-webpage integration and backend logic for a live production application, ensuring reliable, real-time data flow across connected modules.</li>
+        <li>Validated and cleaned structured datasets feeding backend workflows, reducing manual correction time and improving retrieval accuracy.</li>
+        <li>Applied structured QA checks at each stage of the development pipeline, catching errors before they reached production.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Web Designer Intern</h3>
+      <p class="meta">Durga Tech, Coimbatore • June 2024</p>
+      <ul>
+        <li>Built and tested features across the full development lifecycle, including secure data storage and handling.</li>
+        <li>Applied secure coding and data-handling practices, building strong awareness of application security and data integrity.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Deep Learning Intern</h3>
+      <p class="meta">December 2025</p>
+      <ul>
+        <li>Completed a Deep Learning internship focused on building and training neural network models using Python.</li>
+        <li>Worked on data preprocessing, model training, and performance evaluation for real-world use cases.</li>
+        <li>Strengthened practical knowledge of deep learning concepts and their application in solving prediction and classification problems.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="container">
+    <h2 class="section-title">Academic Projects</h2>
+    <p class="section-subtitle">Selected academic and engineering projects.</p>
+
+    <div class="card">
+      <div class="project-number">Project 01</div>
+      <h3>Intelligent Crop Recommendation System Using Soil Type Analysis</h3>
+      <p class="meta">Neowep Software Technology • February 2026</p>
+      <ul>
+        <li>Built and validated a data pipeline processing multi-variable soil and crop datasets, engineering checks to eliminate outliers before ingestion into the recommendation engine.</li>
+        <li>Designed validation logic to ensure consistent, repeatable recommendation accuracy across test cases.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="project-number">Project 02</div>
+      <h3>Digital Keyboard Using Number Shuffling System in ATM</h3>
+      <p class="meta">Durga Tech, Coimbatore • March 2024</p>
+      <ul>
+        <li>Designed and coded a dynamic digital keypad system to strengthen ATM security against shoulder-surfing, thermal-imaging, and smudge-analysis attacks.</li>
+        <li>Built a randomized keypad-shuffle algorithm to remove static-layout vulnerabilities, providing a security-first and engineering-focused solution.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="project-number">Project 03</div>
+      <h3>AI-Powered Text-to-SQL Query Generator Using Prompt Engineering</h3>
+      <p class="meta">December 2025 – February 2026</p>
+
+      <h4>Project Overview</h4>
+      <p>Built an intelligent system that converts natural language questions into accurate SQL queries using advanced Prompt Engineering techniques, enabling non-technical users to interact with databases without writing a single line of SQL.</p>
+
+      <h4>Problem It Solves</h4>
+      <p>Not everyone knows SQL, but everyone needs data insights. Business teams, analysts, and managers often depend on developers to fetch simple reports. This tool bridges that gap by allowing users to ask questions in plain English and receive instant, accurate database queries.</p>
+
+      <h4>How It Works</h4>
+      <ul>
+        <li>User inputs a natural language query, for example: "Show me all employees who joined after 2022 with salary above 50000."</li>
+        <li>The database schema is dynamically injected into the prompt to provide context awareness.</li>
+        <li>A carefully engineered prompt using few-shot examples and role-based prompting guides the LLM to generate accurate SQL.</li>
+        <li>The generated SQL query is validated and executed against the database.</li>
+        <li>The query results are displayed back to the user in a readable format.</li>
+      </ul>
+
+      <h4>Prompt Engineering Techniques Used</h4>
+      <ul>
+        <li>Few-shot prompting for improved query pattern accuracy.</li>
+        <li>Schema-aware prompt construction using dynamic context injection.</li>
+        <li>Chain-of-Thought prompting for complex multi-table joins.</li>
+        <li>Output formatting constraints to ensure clean and executable SQL.</li>
+        <li>Error-handling prompts for query validation and self-correction.</li>
+      </ul>
+
+      <h4>Tech Stack</h4>
+      <div class="chips">
+        <span class="chip">Python</span><span class="chip">OpenAI / Claude API</span>
+        <span class="chip">SQLite</span><span class="chip">MySQL</span><span class="chip">PostgreSQL</span>
+        <span class="chip">Streamlit</span><span class="chip">Flask</span><span class="chip">LangChain</span>
+      </div>
+
+      <h4>Key Benefits</h4>
+      <ul>
+        <li>Removes the SQL knowledge barrier for non-technical users.</li>
+        <li>Speeds up data retrieval and reporting.</li>
+        <li>Reduces developer dependency for routine database queries.</li>
+        <li>Demonstrates practical application of LLM Prompt Engineering.</li>
+        <li>Provides a solution that can scale across different database schemas.</li>
+      </ul>
+
+      <h4>Applications</h4>
+      <div class="chips">
+        <span class="chip">Business Intelligence Dashboards</span>
+        <span class="chip">Internal Data Analytics Tools</span>
+        <span class="chip">Customer Support Systems</span>
+        <span class="chip">Enterprise Reporting Platforms</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="certification">
+  <div class="container">
+    <h2 class="section-title">Certification</h2>
+    <div class="card">
+      <h3>Introduction to the Basics of Azure Services</h3>
+      <p class="meta">08 August 2026</p>
+      <p>Certificate completed in Introduction to the Basics of Azure Services.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <h2 class="section-title">Contact</h2>
+    <div class="card">
+      <h3>Let's Connect</h3>
+      <p style="margin: 12px 0 20px;">Interested in software engineering, AI, Prompt Engineering and data-driven solutions.</p>
+      <div class="contact-row">
+        <a class="btn" href="mailto:jmonisha504@gmail.com">jmonisha504@gmail.com</a>
+        <a class="btn alt" href="https://linkedin.com/in/monisha-jagadevan-143b5942a" target="_blank">LinkedIn Profile</a>
+        <a class="btn alt" href="tel:+919789327608">+91 97893 27608</a>
+      </div>
+      <p>Salem, Tamil Nadu</p>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container">
+    © 2026 Monisha Jagadevan • Software Engineer | MCA Graduate
+  </div>
+</footer>
+
+</body>
+</html>
